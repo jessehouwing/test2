@@ -15,3 +15,4 @@ jobs:
       MT_NAME: "Calling from Github 2"
       MT_FOLDER: ${{ vars.var1 }}
       environment: 'prd'
+      MT_FOLDER_VAR: var1
