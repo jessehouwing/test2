@@ -29,4 +29,4 @@ jobs:
     steps:
       - run: echo "${{ inputs.MT_NAME }}"
       - run: echo "${{ inputs.MT_FOLDER }}"
-      - run: echo "${{ vars[input.MT_FOLDER_VAR] }}"
+      - run: echo "${{ vars[inputs.MT_FOLDER_VAR] }}"
